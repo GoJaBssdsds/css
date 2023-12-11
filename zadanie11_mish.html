@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selektory CSS</title>
+  <style>
+    ul {
+      list-style-type: none;
+    }
+
+    .poziom1 {
+      font-weight: bold;
+    }
+
+    .poziom2 {
+      color: blue;
+    }
+
+    .poziom3 {
+      font-style: italic;
+    }
+
+    p {
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-family: Calibri, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <h1>Wymień rodzaje selektorów</h1>
+  <fieldset>
+    <ol class="poziom1">
+      <li>selektor prosty</li>
+      <li>selektor uniwersalny</li>
+      <li>selektor potomka</li>
+      <li>selektor dziecka</li>
+      <li>selektor braci</li>
+      <li>selektor atrybutu
+        <ol class="poziom2">
+          <li>prosty selektor atrybutu</li>
+          <li>selektor atrybutu o określonej wartości</li>
+          <li>selektor atrybutu zawierający określony wyraz</li>
+        </ol>
+      </li>
+      <li>selektory specjalne
+        <ol class="poziom2">
+          <li>selektor klasy</li>
+          <li>pseudoklasy</li>
+          <li>selektor pseudoelementów
+            <ul class="poziom3">
+              <li>Pierwsza litera</li>
+              <li>Ostatnia litera</li>
+            </ul>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </fieldset>
+</body>
+</html>
